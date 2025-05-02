@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>425</width>
+    <width>722</width>
     <height>647</height>
    </rect>
   </property>
@@ -19,7 +19,7 @@
      <rect>
       <x>9</x>
       <y>149</y>
-      <width>391</width>
+      <width>381</width>
       <height>301</height>
      </rect>
     </property>
@@ -53,7 +53,7 @@
    <widget class="QPushButton" name="btnEdit">
     <property name="geometry">
      <rect>
-      <x>276</x>
+      <x>270</x>
       <y>10</y>
       <width>121</width>
       <height>61</height>
@@ -68,17 +68,7 @@
      <rect>
       <x>9</x>
       <y>79</y>
-      <width>251</width>
-      <height>51</height>
-     </rect>
-    </property>
-   </widget>
-   <widget class="QComboBox" name="comboBox">
-    <property name="geometry">
-     <rect>
-      <x>270</x>
-      <y>80</y>
-      <width>131</width>
+      <width>201</width>
       <height>51</height>
      </rect>
     </property>
@@ -112,13 +102,59 @@
      </property>
     </widget>
    </widget>
+   <widget class="QDateEdit" name="dateFromEdit">
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>80</y>
+      <width>112</width>
+      <height>23</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>80</y>
+      <width>49</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>От</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>110</y>
+      <width>49</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>До</string>
+    </property>
+   </widget>
+   <widget class="QDateEdit" name="dateToEdit">
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>110</y>
+      <width>112</width>
+      <height>23</height>
+     </rect>
+    </property>
+   </widget>
   </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>425</width>
+     <width>722</width>
      <height>33</height>
     </rect>
    </property>
